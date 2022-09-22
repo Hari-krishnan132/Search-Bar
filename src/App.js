@@ -8,7 +8,7 @@ const options = {
   method: 'GET',
   url: 'https://pokemon-go1.p.rapidapi.com/pokemon_names.json',
   headers: {
-    'X-RapidAPI-Key': '6df8fdd096mshcc2f91ae80b3344p174683jsn5429e9bbc09e',
+    'X-RapidAPI-Key': process.env.API_KEY,
     'X-RapidAPI-Host': 'pokemon-go1.p.rapidapi.com'
   }
 };
