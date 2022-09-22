@@ -1,0 +1,47 @@
+.App {
+    font-family: roboto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #root {
+    position: relative;
+    top: 200px;
+  }
+  #poke_name {
+    margin-right: 10px;
+  }
+  .search-container {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdown {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+  }
+  
+  .dropdown:empty {
+    border: none;
+  }
+  
+  .dropdown-row {
+    cursor: pointer;
+    text-align: start;
+    margin: 2px 0;
+  }
+  
+  input {
+    width: 220px;
+  }
+
+ 
+  .search-inner {
+    display: flex;
+  }
+  
